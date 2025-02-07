@@ -28,7 +28,7 @@ blockchain = [
 
 # 👇👇👇 Your code HERE 👇👇👇
 
-wallets = {}
+wallets = {} #empty hash
 
 for transaction in blockchain
   from = transaction["from_user"]
